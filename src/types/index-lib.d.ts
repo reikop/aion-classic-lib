@@ -9,7 +9,7 @@ export interface Equip{
     "quality": Quality,
     "image": string,
     "category1": {
-        "alias": Category1,
+        "alias": Category,
         "name": string
     },
     "category2": {
@@ -21,16 +21,8 @@ export interface Equip{
         "name": string
     }
 }
-export enum Category1{
-    ARMOR = "ARMOR",
-    ACCESSORY = "ACCESSORY",
-    WEAPON = "WEAPON"
-}
-export enum Category2{
-    ARMOR,
-    ACCESSORY,
-    WEAPON
-}
+export type Quality = 'rare' | 'legend' | 'unique' | 'epic' |  'mythic' |  'ancient' |  'relic' |  'finality' |  'junk';
+export type Category = "ARMOR" | "ACCESSORY" | "WEAPON" | "WING";
 export interface Stigma
 {
     "itemId": number,
@@ -53,17 +45,4 @@ export enum AbyssEquipLevel{
 }
 export type EquipType = {
     [key in Category1]: {[key:string]: number}
-}
-
-declare enum Quality{
-    'common',
-    'rare',
-    'legend',
-    'unique',
-    'epic',
-     'mythic',
-     'ancient',
-     'relic',
-     'finality',
-     'junk',
 }
