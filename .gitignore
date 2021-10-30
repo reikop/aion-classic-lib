@@ -1,8 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/node
-# Edit at https://www.toptal.com/developers/gitignore?templates=node
-
-### Node ###
 # Logs
 logs
 *.log
@@ -89,7 +84,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-#dist
+dist
 
 # Gatsby files
 .cache/
@@ -122,8 +117,9 @@ out
 .yarn/install-state.gz
 .pnp.*
 
-### Node Patch ###
-# Serverless Webpack directories
-.webpack/
+# Idea files
+.idea
 
-# End of https://www.toptal.com/developers/gitignore/api/node
+# Docs files
+docs/docs.json
+dmp-ts.iml

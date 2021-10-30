@@ -1,5 +1,2 @@
-import CalcPvP from "./utils/CalcPvP";
-
-module.exports = {
-    CalcPvP
-}
+export * from "./utils/CalcPvP";
+export * from "./types/types";

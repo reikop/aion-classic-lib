@@ -1,8 +1,13 @@
 {
   "name": "aion-classic-lib",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "NCSoft Aion Classic Utils Library",
-  "main": "dist/index.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.ts"
+  ],
   "scripts": {
     "test": "jest"
   },
@@ -10,9 +15,19 @@
     "node_modules",
     "src"
   ],
-  "keywords": [],
+  "keywords": [
+    "Aion Classic",
+    "NCSoft"
+  ],
   "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reikop/aion-classic-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reikop/aion-classic-lib/issues"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.3.1",
@@ -20,3 +35,4 @@
     "typescript": "^4.4.4"
   }
 }
+C

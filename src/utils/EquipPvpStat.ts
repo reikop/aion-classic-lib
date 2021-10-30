@@ -1,4 +1,4 @@
-import {AbyssEquipLevel, EquipStat} from "../types/index-lib";
+import {AbyssEquipLevel, EquipStat} from "../types/types";
 
 const EquipPvPStat:EquipStat = {
     [AbyssEquipLevel.TEN]: {

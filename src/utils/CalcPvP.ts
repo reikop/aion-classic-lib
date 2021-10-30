@@ -1,4 +1,4 @@
-import {AbyssEquipLevel, Equip, EquipStat} from "../types/index-lib";
+import {AbyssEquipLevel, Equip, EquipStat} from "../types/types";
 import EquipPvPStat from "./EquipPvpStat";
 
 const CalcPvP = function (equips: Equip[]) {
