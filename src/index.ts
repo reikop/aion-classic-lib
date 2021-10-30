@@ -1,2 +1,5 @@
+import CalculateEquipPvPStat from "./utils/CalcPvP";
 export * from "./types/types";
-export * from "./utils/CalcPvP";
+export default {
+    CalculateEquipPvPStat
+}
