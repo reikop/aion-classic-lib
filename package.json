@@ -2,7 +2,7 @@
   "name": "aion-classic-lib",
   "version": "1.0.2",
   "description": "NCSoft Aion Classic Utils Library",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest"
   },
