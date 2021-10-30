@@ -1,14 +1,11 @@
 {
   "name": "aion-classic-lib",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NCSoft Aion Classic Utils Library",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "files": [
-    "index.d.ts",
-    "index.ts"
-  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "moduleDirectories": [
