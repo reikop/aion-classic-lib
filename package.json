@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "test": "jest"
+    "build": "rimraf dist && tsc",
+    "test": "jest",
+    "prepublish": "rimraf dist && tsc"
   },
   "moduleDirectories": [
     "node_modules",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.3.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   }
