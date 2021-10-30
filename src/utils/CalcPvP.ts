@@ -1,5 +1,5 @@
 import {AbyssEquipLevel, Equip, EquipStat} from "../types/types";
-import EquipPvPStat from "./EquipPvpStat";
+import EquipPvPStat from "../data/EquipPvpStat";
 
 const CalcPvP = function (equips: Equip[]) {
     const abyssItems: EquipStat = EquipPvPStat;
