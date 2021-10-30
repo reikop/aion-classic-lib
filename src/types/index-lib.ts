@@ -44,5 +44,5 @@ export enum AbyssEquipLevel{
     GUN = "GUN", // 군단장
 }
 export type EquipType = {
-    [key in Category1]: {[key:string]: number}
+    [key in Category]: {[key:string]: number}
 }

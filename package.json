@@ -1,11 +1,15 @@
 {
   "name": "aion-classic-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NCSoft Aion Classic Utils Library",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

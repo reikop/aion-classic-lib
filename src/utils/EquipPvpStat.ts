@@ -20,7 +20,8 @@ const EquipPvPStat:EquipStat = {
         "WEAPON": {
             "BOTH": 8,
             "RIGHT": 4.8
-        }
+        },
+        "WING":{}
     },
     [AbyssEquipLevel.HUN]: {
         "ARMOR": {
@@ -41,7 +42,8 @@ const EquipPvPStat:EquipStat = {
         "WEAPON": {
             "BOTH": 9,
             "RIGHT": 5.4
-        }
+        },
+        "WING":{}
     },
     [AbyssEquipLevel.THO]: {
         "ARMOR": {
@@ -62,7 +64,8 @@ const EquipPvPStat:EquipStat = {
         "WEAPON": {
             "BOTH": 10,
             "RIGHT": 6
-        }
+        },
+        "WING":{}
     },
     [AbyssEquipLevel.THU]:{
         "ARMOR": {
@@ -83,7 +86,8 @@ const EquipPvPStat:EquipStat = {
         "WEAPON": {
             "BOTH": 10.5,
             "RIGHT": 6.3
-        }
+        },
+        "WING":{}
     },
     [AbyssEquipLevel.GUN]:{
         "ARMOR": {
@@ -104,7 +108,8 @@ const EquipPvPStat:EquipStat = {
         "WEAPON": {
             "BOTH": 11,
             "RIGHT": 6.6
-        }
+        },
+        "WING":{}
     }
 
 }
