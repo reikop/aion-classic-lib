@@ -1,2 +1,2 @@
-export * from "./utils/CalcPvP";
+export default "./utils/CalcPvP";
 export * from "./types/types";
