@@ -1,14 +1,13 @@
 {
   "name": "aion-classic-lib",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "NCSoft Aion Classic Utils Library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "jest",
-    "prepublish": "rimraf dist && tsc",
-    "publish": "npm version patch && npm publish"
+    "publish": "npm version patch && rimraf dist && tsc"
   },
   "moduleDirectories": [
     "node_modules",
