@@ -50,14 +50,15 @@ const CalcPvP = function (equips: Equip[]) {
                     }
                     att += item[category[0]][weaponType];
                 }
-            } else if (equip.name === '라크하네의 머리장식') {
-                def += 2;
-            } else if (equip.name.startsWith('뒤틀린 황천의')) {
-                def += 2;
-            } else if (/(가디언|아칸)\s정찰대의/.test(equip.name)) {
-                def += 1.6;
             }
+        }else if (equip.name === '라크하네의 머리장식') {
+            def += 2;
+        } else if (equip.name.startsWith('뒤틀린 황천의')) {
+            def += 2;
+        } else if (/(가디언|아칸)\s정찰대의/.test(equip.name)) {
+            def += 1.6;
         }
+
     }
     if (equips.filter(equip => /정예\s(가디언|아칸)\s만부장/.test(equip.name) && equip.category1.alias === 'ARMOR').length === 5) {
         def += 0.3;
