@@ -87,7 +87,9 @@ const EquipPvPStat:EquipStat = {
             "BOTH": 10.5,
             "RIGHT": 6.3
         },
-        "WING":{}
+        "WING":{
+            "BOTH": 1,
+        }
     },
     [AbyssEquipLevel.GUN]:{
         "ARMOR": {

@@ -49,6 +49,8 @@ const CalcPvP = function (equips: Equip[]) {
                             break;
                     }
                     att += item[category[0]][weaponType];
+                } else if (category[0] === 'WING') {
+                    def += item.WING.BOTH;
                 }
             }
         }else if (equip.name === '라크하네의 머리장식') {

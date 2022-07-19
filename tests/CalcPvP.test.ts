@@ -488,7 +488,7 @@ const gun: Equip[] =[
     },
     {
         "itemId": 187000010,
-        "name": "빛나는 해로슝의 날개깃",
+        "name": "가디언 만부장의 날개깃",
         "attackType": "",
         "enchantCount": 0,
         "authorizeCount": 0,
@@ -694,9 +694,31 @@ const gun: Equip[] =[
         }
     }
 ]
-
+const aa: Equip[] =[{
+    "itemId": 187000010,
+    "name": "가디언 만부장의 날개깃",
+    "attackType": "",
+    "enchantCount": 0,
+    "authorizeCount": 0,
+    "equipSlotType": 15,
+    "level": 50,
+    "quality": "unique",
+    "image": "https://wstatic-cdn.plaync.com/powerbook/aionclassic/icon/items/icon_item_feather02_t0.jpg",
+    "category1": {
+        "alias": "WING",
+        "name": "날개"
+    },
+    "category2": {
+        "alias": "NOVALUE",
+        "name": "카테고리없음"
+    },
+    "category3": {
+        "alias": "NOVALUE",
+        "name": "카테고리없음"
+    }
+}];
 test('Calc 정천 계산', () => {
-    expect(CalcPvP(gun)).toEqual({att: "16.0", def: "19.6"});
+    expect(CalcPvP(aa)).toEqual({att: "0.0", def: "1.0"});
     // expect(CalcPvP(gun)).toEqual({att: "26.0", def: "18.0"})
     // console.info(CalcPvP(gun))
     // expect().toEqual({att: "26.0", def: "18.0"})
