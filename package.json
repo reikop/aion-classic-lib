@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "jest",
-    "prepublishOnly": " rimraf dist && tsc && npm version patch"
+    "prepublishOnly": "rimraf dist && tsc && npm version patch"
   },
   "moduleDirectories": [
     "node_modules",
