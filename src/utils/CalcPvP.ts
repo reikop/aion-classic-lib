@@ -57,6 +57,8 @@ const CalcPvP = function (equips: Equip[]) {
             def += 2;
         } else if (/(가디언|아칸)\s정찰대의/.test(equip.name)) {
             def += 1.6;
+        } else if (/(가디언|아칸)\s만부장의 날개깃/.test(equip.name)) {
+            def += 1.0;
         }
 
     }
