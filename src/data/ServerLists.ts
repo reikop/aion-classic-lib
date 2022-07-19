@@ -8,7 +8,8 @@ const servers:Server[] =
     {id: 26, name: "카이시넬", type: ServerType.KAISINEL},
     {id: 27, name: "루미엘", type: ServerType.LUMIEL},
     {id: 28, name: "유스티엘", type: ServerType.JUSTIEL},
-    {id: 29, name: "마르쿠탄", type: ServerType.MARKUTAN}
+    {id: 29, name: "마르쿠탄", type: ServerType.MARKUTAN},
+    {id: 30, name: "시엘", type: ServerType.CIEL},
 ]
 
 export default servers;
