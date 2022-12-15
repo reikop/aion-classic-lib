@@ -10,10 +10,12 @@ const servers:Server[] =
     // {id: 28, name: "유스티엘", type: ServerType.JUSTIEL},
     // {id: 29, name: "마르쿠탄", type: ServerType.MARKUTAN},
     {id: 30, name: "시엘", type: ServerType.CIEL},
-    {id: 41, name: "드키", type: ServerType.KYSIS},
+    // {id: 41, name: "드키", type: ServerType.KYSIS},
     {id: 42, name: "크로", type: ServerType.KROTAN},
-    {id: 43, name: "라미", type: ServerType.MIREN},
+    // {id: 43, name: "라미", type: ServerType.MIREN},
     {id: 44, name: "에레슈란타", type: ServerType.RESHANTA},
+    {id: 45, name: "어비스", type: ServerType.ABYSS},
+
 ]
 
 export default servers;

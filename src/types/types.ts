@@ -64,7 +64,8 @@ export enum ServerType {
     MIREN = "MIREN",
     KROTAN = "KROTAN",
     KYSIS = "KYSIS",
-    RESHANTA = "RESHANTA"
+    RESHANTA = "RESHANTA",
+    ABYSS="ABYSS",
 }
 export type EquipType = {
     [key in Category]: {[key:string]: number}
