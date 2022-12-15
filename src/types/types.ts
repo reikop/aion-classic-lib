@@ -49,17 +49,22 @@ export enum AbyssEquipLevel{
     THU = "THU", // 만부
     GUN = "GUN", // 군단장
 }
-export enum ServerType{
-    ISRAFEL="ISRAFEL",
-    NEZAKAN="NEZAKAN",
-    ZICKEL="ZICKEL",
-    BYZEL="BYZEL",
-    TRINIEL="TRINIEL",
-    KAISINEL="KAISINEL",
-    LUMIEL="LUMIEL",
-    JUSTIEL="JUSTIEL",
-    MARKUTAN="MARKUTAN",
-    CIEL="CIEL",
+
+export enum ServerType {
+    ISRAFEL = "ISRAFEL",
+    NEZAKAN = "NEZAKAN",
+    ZICKEL = "ZICKEL",
+    BYZEL = "BYZEL",
+    TRINIEL = "TRINIEL",
+    KAISINEL = "KAISINEL",
+    LUMIEL = "LUMIEL",
+    JUSTIEL = "JUSTIEL",
+    MARKUTAN = "MARKUTAN",
+    CIEL = "CIEL",
+    MIREN = "MIREN",
+    KROTAN = "KROTAN",
+    KYSIS = "KYSIS",
+    RESHANTA = "RESHANTA"
 }
 export type EquipType = {
     [key in Category]: {[key:string]: number}
